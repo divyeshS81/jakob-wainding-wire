@@ -10,7 +10,7 @@ import JakobLogo from "../../assets/IMAGES/LOGOJAKOB.png"  //logo
 const Header = () => {
   return (
     <>
-    <header className="border-b font-['poppins']">
+    <header className="border-b shadow-md font-['poppins']">
       {/* Top bar with contact info and social icons */}
       <div className="flex justify-between items-center px-4 py-2 bg-gray-100 text-sm">
         <div className="flex items-center space-x-10">
@@ -19,33 +19,7 @@ const Header = () => {
             <a href="mailto:jakobwire@gmail.com" className="text-gray-600 font-semibold">jakobwire@gmail.com</a>
           </div>
           <div className="flex items-center space-x-1">
-            <span className="material-icons text-xs
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            "><CallIcon/> </span>
+            <span className="material-icons text-xs"><CallIcon/> </span>
             <a href="tel:+917436010203" className='text-gray-600 font-semibold'>+91 74360 10203</a>
           </div>
         </div>
@@ -70,7 +44,7 @@ const Header = () => {
           <a href="#" className="hover:text-orange-500">PROCESS</a>
           <a href="#" className="hover:text-orange-500">MATERIAL</a>
           <a href="#" className="hover:text-orange-500">SECTOR</a>
-          <a href="#" className="hover:text-orange-500">CONTACT</a>
+          <a href="#" className="hover:text-orange-500">CONTACT US</a>
         </nav>
       </div>
     </header>
