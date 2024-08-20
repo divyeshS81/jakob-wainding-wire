@@ -13,13 +13,39 @@ const Header = () => {
     <header className="border-b font-['poppins']">
       {/* Top bar with contact info and social icons */}
       <div className="flex justify-between items-center px-4 py-2 bg-gray-100 text-sm">
-        <div className="flex items-center space-x-4">
-          <div className="flex items-center space-x-2 ml-10">
-            <span className="material-icons text-lg"><EmailIcon/></span>
+        <div className="flex items-center space-x-10">
+          <div className="flex items-center space-x-1 ml-10">
+            <span className="material-icons text-sm"><EmailIcon/></span>
             <a href="mailto:jakobwire@gmail.com" className="text-gray-600 font-semibold">jakobwire@gmail.com</a>
           </div>
-          <div className="flex items-center space-x-2">
-            <span className="material-icons text-lg"><CallIcon/> </span>
+          <div className="flex items-center space-x-1">
+            <span className="material-icons text-xs
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            "><CallIcon/> </span>
             <a href="tel:+917436010203" className='text-gray-600 font-semibold'>+91 74360 10203</a>
           </div>
         </div>
