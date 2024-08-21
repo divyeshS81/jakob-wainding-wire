@@ -4,7 +4,7 @@ import { IoLogoYoutube } from "react-icons/io";
 import JakobLogo from "../../assets/IMAGES/LOGOJAKOB.png";
 import EmailIcon from "@mui/icons-material/Email";
 import CallIcon from "@mui/icons-material/Call";
-import LogoJakobOrange from "../../assets/IMAGES/LOGOJAKOB-Orange.png"
+import LogoJakobWhite from "../../assets/IMAGES/LOGOJAKOB-White.png"
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="flex justify-evenly md:space-y-0 md:space-x-0">
         {/* Section 1: Logo and Description */}
         <div className=" md:w-1/4  space-y-4">
-          <img src={LogoJakobOrange} alt="Jakob Logo" className="h-16 w-auto" />
+          <img src={LogoJakobWhite} alt="Jakob Logo" className="h-16 w-auto" />
           <p className="">
             JAKOB, driven by innovation and precision, delivers top-tier winding
             wires designed to power industries with unmatched reliability and
