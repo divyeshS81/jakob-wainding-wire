@@ -1,60 +1,78 @@
-import React from 'react';
+import React from "react";
 import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import JakobLogo from "../../assets/IMAGES/LOGOJAKOB.png";
+import EmailIcon from "@mui/icons-material/Email";
+import CallIcon from "@mui/icons-material/Call";
+import LogoJakobOrange from "../../assets/IMAGES/LOGOJAKOB-Orange.png"
 
 const Footer = () => {
-    return (
-        <footer className="bg-gray-900 text-white py-8">
-            <div className=" flex space-y-8 md:space-y-0 md:space-x-0">
-                {/* Section 1: Logo and Description */}
-                <div className=" container md:w-1/4  space-y-4">
-                    <img src={JakobLogo} alt="Jakob Logo" className="h-16 w-auto" />   
-                    <p>JAKOB, driven by innovation and precision, delivers top-tier winding wires designed to power industries with unmatched reliability and efficiency, ensuring every coil meets the highest standards of excellence.</p>
-                    <div className="flex space-x-2">
-                        <a href="#" className="text-white">
-                            <FaLinkedin />
-                        </a>
-                        <a href="#" className="text-white">
-                            <FaInstagram />
-                        </a>
-                        <a href="#" className="text-white">
-                            <FaFacebookSquare />
-                        </a>
-                        <a href="#" className="text-white">
-                            <IoLogoYoutube />
-                        </a>
-                    </div>
-                </div>
-                
-                {/* Section 2: Useful Links */}
-                <div className=" md:w-1/4 ml-[50px] space-y-4">
-                    <h3 className="text-xl font-semibold">Useful Links</h3>
-                    <ul className="space-y-2">
-                        <li><a href="#" className="text-gray-400 hover:text-white">Company Profile</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-white">Technical Property</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-white">Contact Us</a></li>
-                    </ul>
-                </div>
-                
-              
-                
-                {/* Section 4: Contact Us */}
-                <div className=" md:w-1/4 ">
-                    <h3 className="text-xl font-semibold">Contact Us</h3>
-                    <p>Survey No. 133/3, Mahendragadh Road,<br />
-                    Near Pipaliya Cross Road, Navlakhi Highway,<br />
-                    At: Pipaliya- 363660, Dist.: Morbi, Gujarat.</p>
-                    <p>Phone: +91 74360 10203</p>
-                    <p>Email: jakobwire@gmail.com</p>
-                    
-                </div>
-            </div>
-            <div className="text-center mt-10 leading-10 bg-black text-gray-400">
-                <p>&copy; 2024. All Rights Reserved by JAKOB</p>
-            </div>
-        </footer>
-    );
-}
+  return (
+    <footer className="bg-black text-white py-8">
+      <div className="flex justify-evenly md:space-y-0 md:space-x-0">
+        {/* Section 1: Logo and Description */}
+        <div className=" md:w-1/4  space-y-4">
+          <img src={LogoJakobOrange} alt="Jakob Logo" className="h-16 w-auto" />
+          <p className="">
+            JAKOB, driven by innovation and precision, delivers top-tier winding
+            wires designed to power industries with unmatched reliability and
+            efficiency, ensuring every coil meets the highest standards of
+            excellence.
+          </p>
+        </div>
+
+        {/* Section 4: Contact Us */}
+        <div className=" md:w-1/4 space-y-3">
+          <h3 className="text-xl font-semibold">Contact Us</h3>
+          <p>
+            Survey No. 64, Shed No.23
+            <br />
+            Sapar Industrial Area,NH 27,
+            <br />
+            Indside Dharti Agro Gate, At:Shapar-360026,Dist.:Rajkot,Gujarat.
+          </p>
+          <div className="flex items-center space-x-1">
+            <span className="material-icons text-xs"><CallIcon/> </span>
+            <a href="tel:+917436010203" className=' font-semibold'>+91 74360 10203</a>
+          </div>
+          <div className="flex items-center space-x-1">
+            <span className="material-icons text-xs"><CallIcon/> </span>
+            <a href="tel:+919879212027" className=' font-semibold'>+91 98792 12027</a>
+          </div>    
+          <div className="flex items-center space-x-1 ">
+            <span className="material-icons text-sm">
+              <EmailIcon />
+            </span>
+            <a
+              href="mailto:jakobwire@gmail.com"
+              className=" font-semibold"
+            >
+              jakobwire@gmail.com
+            </a>
+          </div>
+          
+        </div>
+
+        <div className="text-2xl space-x-1">
+          <a href="#" className="text-white  hover:hover:text-[#1877F2]">
+            <FaLinkedin />
+          </a>
+          <a href="#" className="text-white hover:text-[#E1306C]">
+            <FaInstagram />
+          </a>
+          <a href="#" className="text-white hover:text-[#0077B5]">
+            <FaFacebookSquare />
+          </a>
+          <a href="#" className="text-white hover:text-[#ff0000] ">
+            <IoLogoYoutube />
+          </a>
+        </div>
+      </div>
+      <div className="text-center mt-10 leading-10  text-gray-400">
+        <p>&copy; 2024. All Rights Reserved by JAKOB</p>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
