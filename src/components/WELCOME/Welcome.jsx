@@ -5,8 +5,8 @@ const WelcomeSection = () => {
   return (
     <section className="bg-gray-200 text-gray-800 py-12">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-orange-500">Welcome to Jakob Winding Wire</h2>
+        <div className="text-right mr-[400px] mb-8">
+          <h2 className="text-3xl font-bold text-orange-500">Welcome to JAKOB Wire</h2>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -38,7 +38,7 @@ const WelcomeSection = () => {
             <div className="text-center mt-6">
               <a
                 href="/contact" // Update this link to your contact page URL
-                className="inline-block px-6 py-3 text-white bg-orange-500 hover:bg-orange-600 rounded-lg shadow-lg transition duration-300"
+                className="inline-block px-6 py-3 text-white bg-orange-500 hover:bg-orange-600 rounded-lg shadow-lg  animate-bounce"
               >
                 Contact Us
               </a>

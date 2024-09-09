@@ -29,7 +29,7 @@ const Footer = () => {
             <br />
             Sapar Industrial Area,NH 27,
             <br />
-            Indside Dharti Agro Gate, At:Shapar-360026,Dist.:Rajkot,Gujarat.
+            Indside Dharti Agro Gate, At: Shapar-360026,Dist.:Rajkot,Gujarat.
           </p>
           <div className="flex items-center space-x-1">
             <span className="material-icons text-xs"><CallIcon/> </span>
