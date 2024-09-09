@@ -23,8 +23,8 @@ const ContactUs = () => {
       {/* Map Section */}
       <div className="md:w-1/2 w-full h-96">
         <iframe
-          src="https://www.google.com/maps/dir/22.2882883,70.7839106/mahant+prasad+industries+shapar+address/@22.2201011,70.6965088,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x395835006cc1fc39:0xcbf00e04518aa07c!2m2!1d70.7781244!2d22.1491349?hl=en-in&entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D"
-          width="100%"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.7530655027053!2d70.77554947432223!3d22.149134879795565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395835006cc1fc39%3A0xcbf00e04518aa07c!2sMAHANT%20PRASAD%20INDUSTRIES!5e1!3m2!1sen!2sin!4v1725885226043!5m2!1sen!2sin"
+          width="100%"  
           height="100%"
           style={{ border: 0 }}
           allowFullScreen=""
