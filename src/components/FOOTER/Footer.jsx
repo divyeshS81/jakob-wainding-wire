@@ -54,16 +54,16 @@ const Footer = () => {
         </div>
 
         <div className="text-2xl space-x-1">
-          <a href="#" className="text-white  hover:hover:text-[#1877F2]">
+          <a href="https://www.linkedin.com/school/akshar-institute---india/posts/?feedView=all">
             <FaLinkedin />
           </a>
-          <a href="#" className="text-white hover:text-[#E1306C]">
+          <a href="https://www.instagram.com/jakob.wire/" className="text-white hover:text-[#E1306C]">
             <FaInstagram />
           </a>
-          <a href="#" className="text-white hover:text-[#0077B5]">
+          <a href="https://www.facebook.com/profile.php?id=100095599447406" className="text-white hover:text-[#0077B5]">
             <FaFacebookSquare />
           </a>
-          <a href="#" className="text-white hover:text-[#ff0000] ">
+          <a href="https://www.youtube.com/@JakobWindingWire" className="text-white hover:text-[#ff0000] ">
             <IoLogoYoutube />
           </a>
         </div>

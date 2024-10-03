@@ -4,7 +4,7 @@ import WindingWire from "../../assets/IMAGES/winding-wire4.jpg";
 
 const Hero = () => {
   return (
-    <section className="bg-gray-100 text-gray-800">
+    <section  className="bg-gray-100 text-gray-800">
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-6 py-12">
         {/* Left side content */}
         <div className="flex flex-col items-start justify-center space-y-4 lg:w-1/2 animate-slide-in">

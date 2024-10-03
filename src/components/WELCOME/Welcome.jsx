@@ -3,7 +3,7 @@ import WindingWire from "../../assets/IMAGES/winding-wire.png"
 
 const WelcomeSection = () => {
   return (
-    <section className="bg-gray-200 text-gray-800 py-12">
+    <section id="welcome" className="bg-gray-200 text-gray-800 py-12">
       <div className="container mx-auto px-6">
         <div className="text-right mr-[400px] mb-8">
           <h2 className="text-3xl font-bold text-orange-500">Welcome to JAKOB Wire</h2>

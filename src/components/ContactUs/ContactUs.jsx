@@ -19,9 +19,9 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center py-20 bg-gray-100">
+    <section id="contactus" className="flex flex-col md:flex-row items-center justify-center py-10 md:py-20 bg-gray-100">
       {/* Map Section */}
-      <div className="md:w-1/2 w-full h-96">
+      <div className="md:w-1/2 w-full h-64 md:h-96 mb-6 md:mb-0">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.7530655027053!2d70.77554947432223!3d22.149134879795565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395835006cc1fc39%3A0xcbf00e04518aa07c!2sMAHANT%20PRASAD%20INDUSTRIES!5e1!3m2!1sen!2sin!4v1725885226043!5m2!1sen!2sin"
           width="100%"  
@@ -35,11 +35,11 @@ const ContactUs = () => {
 
       {/* Form Section */}
       <div className="md:w-1/2 w-full p-6">
-        <h2 className="text-3xl font-semibold text-center mb-6 text-orange-500">Contact Us</h2>
-        <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6 text-orange-500">Contact Us</h2>
+        <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-6 md:px-8 pt-6 pb-8 mb-4">
           {/* Name */}
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+            <label className="block text-gray-700 text-sm md:text-base font-bold mb-2" htmlFor="name">
               Name
             </label>
             <input
@@ -50,12 +50,13 @@ const ContactUs = () => {
               value={formData.name}
               onChange={handleChange}
               placeholder="Your Name"
+              required
             />
           </div>
 
           {/* Email */}
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+            <label className="block text-gray-700 text-sm md:text-base font-bold mb-2" htmlFor="email">
               Email
             </label>
             <input
@@ -66,12 +67,13 @@ const ContactUs = () => {
               value={formData.email}
               onChange={handleChange}
               placeholder="Your Email"
+              required
             />
           </div>
 
           {/* Contact Number */}
           <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="contact">
+            <label className="block text-gray-700 text-sm md:text-base font-bold mb-2" htmlFor="contact">
               Contact No
             </label>
             <input
@@ -82,12 +84,13 @@ const ContactUs = () => {
               value={formData.contact}
               onChange={handleChange}
               placeholder="Your Contact Number"
+              required
             />
           </div>
 
           {/* Message */}
           <div className="mb-6">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+            <label className="block text-gray-700 text-sm md:text-base font-bold mb-2" htmlFor="message">
               Message
             </label>
             <textarea
@@ -98,17 +101,18 @@ const ContactUs = () => {
               onChange={handleChange}
               rows="4"
               placeholder="Your Message"
+              required
             ></textarea>
           </div>
 
           {/* Submit Button */}
           <div className="flex items-center justify-center">
-          <a
-            href="#contact"
-            className="px-6 py-3 text-lg   font-semibold text-white bg-orange-500 rounded-lg hover:bg-orange-600 animate-bounce"
-          >
-            Get Started
-          </a>
+            <button
+              type="submit"
+              className="px-6 py-3 text-lg md:text-xl font-semibold text-white bg-orange-500 rounded-lg hover:bg-orange-600 transition duration-200"
+            >
+              Get Started
+            </button>
           </div>
         </form>
       </div>

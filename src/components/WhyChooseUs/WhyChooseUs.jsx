@@ -2,9 +2,9 @@ import React from "react";
 
 const WhyUsSection = () => {
   return (
-    <div className="bg-black text-white py-10">
+    <div className="bg-black text-white py-10 ">
       {/* Section for "WHY US?" */}
-      <div className="max-w-5xl mx-auto">
+      <div className="ml-24 max-w-xl mx-auto">
         <div className="mb-10">
           <h2 className="text-orange-500 text-2xl font-bold mb-4">WHY US?</h2>
           <p className="text-lg">

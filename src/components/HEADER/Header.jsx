@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-scroll"
 import EmailIcon from '@mui/icons-material/Email';
 import CallIcon from '@mui/icons-material/Call';
 import { FaFacebookSquare } from "react-icons/fa";
@@ -25,10 +26,10 @@ const Header = () => {
         </div>
         {/* Social icons */}
         <div className="flex space-x-3 mr-10">
-          <a href="#" className=" text-orange-500 hover:text-[#1877F2] text-lg facebook"><FaFacebookSquare/></a>
-          <a href="#" className=" text-orange-500 hover:text-[#E1306C] text-lg instagram"><FaInstagram/></a>
-          <a href="#" className=" text-orange-500 hover:text-[#0077B5] text-lg linkedin"><FaLinkedin/></a>
-          <a href="#" className=" text-orange-500 hover:text-[#ff0000] text-lg youtube"><IoLogoYoutube/></a>
+          <a href="https://www.facebook.com/profile.php?id=100095599447406" className=" text-orange-500 hover:text-[#1877F2] text-lg facebook"><FaFacebookSquare/></a>
+          <a href="https://www.instagram.com/jakob.wire/" className=" text-orange-500 hover:text-[#E1306C] text-lg instagram"><FaInstagram/></a>
+          <a href="https://www.linkedin.com/school/akshar-institute---india/posts/?feedView=all" className=" text-orange-500 hover:text-[#0077B5] text-lg linkedin"><FaLinkedin/></a>
+          <a href="https://www.youtube.com/@JakobWindingWire" className=" text-orange-500 hover:text-[#ff0000] text-lg youtube"><IoLogoYoutube/></a>
         </div>
       </div>
       
@@ -36,15 +37,15 @@ const Header = () => {
       <div className="flex justify-between items-center px-4 py-4 ml-10">
         {/* Logo */}
         <div className="text-4xl font-bold text-gray-800">
-        <img src={JakobLogo} alt="Jakob Logo" className="h-16 w-auto" />
+        <img src={JakobLogo} alt="Jakob Logo" className="h-16 w-auto cursor-pointer" />
         </div>
         {/* Navigation links */}
         <nav className="space-x-8 text-lg font-medium text-gray-700 mr-[50px]">
-          <a href="#" className="hover:text-orange-500">ABOUT US</a>
-          <a href="#" className="hover:text-orange-500">PROCESS</a>
-          <a href="#" className="hover:text-orange-500">MATERIAL</a>
-          <a href="#" className="hover:text-orange-500">SECTOR</a>
-          <a href="#" className="hover:text-orange-500">CONTACT US</a>
+          <Link to="welcome" smooth={true}  duration='1000' className="hover:text-orange-500 cursor-pointer">ABOUT US</Link>
+          <Link to="process" smooth={true}  duration='1000' className="hover:text-orange-500 cursor-pointer">PROCESS</Link>
+          <Link to="material" smooth={true}  duration='1000' className="hover:text-orange-500 cursor-pointer">MATERIAL</Link>
+          <Link to="productapplication" smooth={true}  duration='1000' className="hover:text-orange-500 cursor-pointer">SECTOR</Link>
+          <Link to="contactus" smooth={true}  duration='1000' className="hover:text-orange-500 cursor-pointer">CONTACT US</Link>
         </nav>
       </div>
     </header>
