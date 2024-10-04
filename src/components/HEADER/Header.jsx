@@ -15,7 +15,7 @@ const Header = () => {
         {/* Top bar with contact info and social icons */}
         <div className="flex flex-col md:flex-row justify-between items-center px-4 py-2 bg-gray-100 text-sm">
           {/* Contact Info */}
-          <div className="flex items-center space-x-6 py-2">
+          <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 py-2 text-center sm:text-left">
             <div className="flex items-center space-x-2">
               <EmailIcon className="text-gray-600" />
               <a
@@ -34,30 +34,30 @@ const Header = () => {
           </div>
 
           {/* Social Icons */}
-          <div className="flex space-x-4 py-2">
+          <div className="flex space-x-4 py-2 justify-center md:justify-end">
             <a
               href="https://www.facebook.com/profile.php?id=100095599447406"
-              className="text-orange-500 hover:text-[#1877F2] text-lg"
+              className="text-orange-500 hover:text-[#1877F2] text-lg transition duration-300"
             >
-              <FaFacebookSquare />
+              <FaFacebookSquare className="w-6 h-6 sm:w-8 sm:h-8" />
             </a>
             <a
               href="https://www.instagram.com/jakob.wire/"
-              className="text-orange-500 hover:text-[#E1306C] text-lg"
+              className="text-orange-500 hover:text-[#E1306C] text-lg transition duration-300"
             >
-              <FaInstagram />
+              <FaInstagram className="w-6 h-6 sm:w-8 sm:h-8" />
             </a>
             <a
               href="https://www.linkedin.com/school/akshar-institute---india/posts/?feedView=all"
-              className="text-orange-500 hover:text-[#0077B5] text-lg"
+              className="text-orange-500 hover:text-[#0077B5] text-lg transition duration-300"
             >
-              <FaLinkedin />
+              <FaLinkedin className="w-6 h-6 sm:w-8 sm:h-8" />
             </a>
             <a
               href="https://www.youtube.com/@JakobWindingWire"
-              className="text-orange-500 hover:text-[#ff0000] text-lg"
+              className="text-orange-500 hover:text-[#ff0000] text-lg transition duration-300"
             >
-              <IoLogoYoutube />
+              <IoLogoYoutube className="w-6 h-6 sm:w-8 sm:h-8" />
             </a>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import JakobLogo from "../../assets/IMAGES/winding-wire.png";
 import ManufacturingUnit from "../../assets/IMAGES/manufactring.png";
 import OurMachinery from "../../assets/IMAGES/ourMachinery.png";
 import Packeging from "../../assets/IMAGES/packeging.png";
@@ -16,62 +15,77 @@ const Process = () => {
         </h2>
 
         {/* Steps */}
-        <div className="flex mt-[60px] justify-between items-center space-x-6">
+        <div className="flex flex-wrap justify-center items-center gap-4 md:gap-10">
           {/* Step 1 */}
           <div className="flex flex-col items-center">
             <img
               src={ManufacturingUnit}
-              alt="Manufacturing our Machinery Unit"
-              className="rounded-full h-24 w-24 object-cover mb-2"
+              alt="Manufacturing Unit"
+              className="rounded-full h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-32 lg:w-32 object-cover mb-3"
             />
-            <p className="text-lg font-semibold text-gray-800">MANUFACTURING</p>
+            <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-800">
+              MANUFACTURING
+            </p>
           </div>
 
-          <span className="text-orange-500 text-[40px]">→</span>
+          {/* Arrow */}
+          <span className="text-orange-500 text-xl sm:text-2xl md:text-3xl lg:text-5xl">→</span>
 
           {/* Step 2 */}
           <div className="flex flex-col items-center">
             <img
               src={OurMachinery}
-              alt="our machinery"
-              className="rounded-full h-24 w-24 object-cover mb-2"
+              alt="Our Machinery"
+              className="rounded-full h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-32 lg:w-32 object-cover mb-3"
             />
-            <p className="text-lg font-semibold text-gray-800">OUR MACHINERY</p>
+            <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-800">
+              OUR MACHINERY
+            </p>
           </div>
 
-          <span className="text-orange-500 text-[40px]">→</span>
+          {/* Arrow */}
+          <span className="text-orange-500 text-xl sm:text-2xl md:text-3xl lg:text-5xl">→</span>
 
           {/* Step 3 */}
           <div className="flex flex-col items-center">
             <img
               src={Research}
-              alt="Research & Development Facilitie"
-              className="rounded-full h-24 w-24 object-cover mb-2"
+              alt="Research & Development"
+              className="rounded-full h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-32 lg:w-32 object-cover mb-3"
             />
-            <p className="text-lg font-semibold text-gray-800">RESEARCH & DEVELOPMENT </p>
+            <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-800 text-center">
+              RESEARCH & DEVELOPMENT
+            </p>
           </div>
 
-          <span className="text-orange-500 text-[40px]">→</span>
+          {/* Arrow */}
+          <span className="text-orange-500 text-xl sm:text-2xl md:text-3xl lg:text-5xl">→</span>
 
           {/* Step 4 */}
           <div className="flex flex-col items-center">
             <img
               src={Wire}
-              alt="wire"
-              className="rounded-full h-24 w-24 object-cover mb-2"
+              alt="Wire"
+              className="rounded-full h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-32 lg:w-32 object-cover mb-3"
             />
-            <p className="text-lg font-semibold text-gray-800">WIRE</p>
+            <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-800">
+              WIRE
+            </p>
           </div>
 
-          <span className="text-orange-500 text-[40px]">→</span>
+          {/* Arrow */}
+          <span className="text-orange-500 text-xl sm:text-2xl md:text-3xl lg:text-5xl">→</span>
 
+          {/* Step 5 */}
           <div className="flex flex-col items-center">
             <img
               src={Packeging}
-              alt="Packing"
-              className="rounded-full h-24 w-24 object-cover mb-2"
+              alt="Packaging"
+              className="rounded-full h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-32 lg:w-32 object-cover mb-3"
             />
-            <p className="text-lg font-semibold text-gray-800">PACKING</p>
+            <p className="text-sm sm:text-base md:text-lg font-semibold text-gray-800">
+              PACKING
+            </p>
           </div>
         </div>
       </div>
