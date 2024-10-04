@@ -42,7 +42,7 @@ const Welcome = () => {
             <div className="mt-6">
               <a
                 href="#contactus" // Change to the ID of the Contact Us section
-                className="inline-block px-6 py-3 text-white bg-orange-500 hover:bg-orange-600 rounded-lg shadow-lg transition duration-300"
+                className="inline-block px-6 py-3 text-white bg-orange-500 hover:bg-orange-600 rounded-lg shadow-lg transition duration-300 animate-bounce"
               >
                 Contact Us
               </a>

@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         {/* Section 3: Social Icons */}
-        <div className="flex justify-center md:justify-start space-x-6 text-2xl">
+        <div className="flex flex-row md:flex-col justify-around items-center space-y-4 md:space-y-0 md:space-x-0 text-2xl">
           <a
             href="https://www.linkedin.com/school/akshar-institute---india/posts/?feedView=all"
             className="hover:text-[#0077B5]"

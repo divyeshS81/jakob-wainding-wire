@@ -15,9 +15,9 @@ const Process = () => {
         </h2>
 
         {/* Steps */}
-        <div className="flex flex-wrap justify-center items-center gap-4 md:gap-10">
+        <div className="flex flex-wrap justify-between items-center gap-4 md:gap-0">
           {/* Step 1 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center flex-1 md:flex-none">
             <img
               src={ManufacturingUnit}
               alt="Manufacturing Unit"
@@ -32,7 +32,7 @@ const Process = () => {
           <span className="text-orange-500 text-xl sm:text-2xl md:text-3xl lg:text-5xl">→</span>
 
           {/* Step 2 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center flex-1 md:flex-none">
             <img
               src={OurMachinery}
               alt="Our Machinery"
@@ -47,7 +47,7 @@ const Process = () => {
           <span className="text-orange-500 text-xl sm:text-2xl md:text-3xl lg:text-5xl">→</span>
 
           {/* Step 3 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center flex-1 md:flex-none">
             <img
               src={Research}
               alt="Research & Development"
@@ -62,7 +62,7 @@ const Process = () => {
           <span className="text-orange-500 text-xl sm:text-2xl md:text-3xl lg:text-5xl">→</span>
 
           {/* Step 4 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center flex-1 md:flex-none">
             <img
               src={Wire}
               alt="Wire"
@@ -77,7 +77,7 @@ const Process = () => {
           <span className="text-orange-500 text-xl sm:text-2xl md:text-3xl lg:text-5xl">→</span>
 
           {/* Step 5 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center flex-1 md:flex-none">
             <img
               src={Packeging}
               alt="Packaging"

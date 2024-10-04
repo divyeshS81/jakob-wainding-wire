@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll';
-import EmailIcon from '@mui/icons-material/Email';
-import CallIcon from '@mui/icons-material/Call';
-import { FaFacebookSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { IoLogoYoutube } from 'react-icons/io';
-import JakobLogo from '../../assets/IMAGES/LOGOJAKOB.png'; // logo
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import EmailIcon from "@mui/icons-material/Email";
+import CallIcon from "@mui/icons-material/Call";
+import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io";
+import JakobLogo from "../../assets/IMAGES/LOGOJAKOB.png"; // logo
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -27,37 +27,41 @@ const Header = () => {
             </div>
             <div className="flex items-center space-x-2">
               <CallIcon className="text-gray-600" />
-              <a href="tel:+917436010203" className="text-gray-600 font-semibold">
+              <a
+                href="tel:+917436010203"
+                className="text-gray-600 font-semibold"
+              >
                 +91 74360 10203
               </a>
             </div>
           </div>
 
           {/* Social Icons */}
+          {/* Social Icons */}
           <div className="flex space-x-4 py-2 justify-center md:justify-end">
             <a
               href="https://www.facebook.com/profile.php?id=100095599447406"
-              className="text-orange-500 hover:text-[#1877F2] text-lg transition duration-300"
+              className="text-orange-500 hover:text-[#1877F2] text-lg md:text-base lg:text-sm transition duration-300"
             >
-              <FaFacebookSquare className="w-6 h-6 sm:w-8 sm:h-8" />
+              <FaFacebookSquare className="w-6 h-6 md:w-5 md:h-5 lg:w-4 lg:h-4" />
             </a>
             <a
               href="https://www.instagram.com/jakob.wire/"
-              className="text-orange-500 hover:text-[#E1306C] text-lg transition duration-300"
+              className="text-orange-500 hover:text-[#E1306C] text-lg md:text-base lg:text-sm transition duration-300"
             >
-              <FaInstagram className="w-6 h-6 sm:w-8 sm:h-8" />
+              <FaInstagram className="w-6 h-6 md:w-5 md:h-5 lg:w-4 lg:h-4" />
             </a>
             <a
               href="https://www.linkedin.com/school/akshar-institute---india/posts/?feedView=all"
-              className="text-orange-500 hover:text-[#0077B5] text-lg transition duration-300"
+              className="text-orange-500 hover:text-[#0077B5] text-lg md:text-base lg:text-sm transition duration-300"
             >
-              <FaLinkedin className="w-6 h-6 sm:w-8 sm:h-8" />
+              <FaLinkedin className="w-6 h-6 md:w-5 md:h-5 lg:w-4 lg:h-4" />
             </a>
             <a
               href="https://www.youtube.com/@JakobWindingWire"
-              className="text-orange-500 hover:text-[#ff0000] text-lg transition duration-300"
+              className="text-orange-500 hover:text-[#ff0000] text-lg md:text-base lg:text-sm transition duration-300"
             >
-              <IoLogoYoutube className="w-6 h-6 sm:w-8 sm:h-8" />
+              <IoLogoYoutube className="w-6 h-6 md:w-5 md:h-5 lg:w-4 lg:h-4" />
             </a>
           </div>
         </div>

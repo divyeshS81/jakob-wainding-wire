@@ -20,18 +20,7 @@ const ContactUs = () => {
 
   return (
     <section id="contactus" className="flex flex-col md:flex-row items-center justify-center py-10 md:py-20 bg-gray-100">
-      {/* Map Section */}
-      <div className="md:w-1/2 w-full h-64 md:h-96 mb-6 md:mb-0">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.7530655027053!2d70.77554947432223!3d22.149134879795565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395835006cc1fc39%3A0xcbf00e04518aa07c!2sMAHANT%20PRASAD%20INDUSTRIES!5e1!3m2!1sen!2sin!4v1725885226043!5m2!1sen!2sin"
-          width="100%"  
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-          title="Map Location"
-        ></iframe>
-      </div>
+      
 
       {/* Form Section */}
       <div className="md:w-1/2 w-full p-6">
@@ -111,10 +100,23 @@ const ContactUs = () => {
               type="submit"
               className="px-6 py-3 text-lg md:text-xl font-semibold text-white bg-orange-500 rounded-lg hover:bg-orange-600 transition duration-200"
             >
-              Get Started
+              Submit
             </button>
           </div>
         </form>
+      </div>
+
+      {/* Map Section */}
+      <div className="md:w-1/2 w-full h-64 md:h-96 mb-6 md:mb-0">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.7530655027053!2d70.77554947432223!3d22.149134879795565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395835006cc1fc39%3A0xcbf00e04518aa07c!2sMAHANT%20PRASAD%20INDUSTRIES!5e1!3m2!1sen!2sin!4v1725885226043!5m2!1sen!2sin"
+          width="100%"  
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          title="Map Location"
+        ></iframe>
       </div>
     </section>
   );
