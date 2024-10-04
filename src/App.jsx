@@ -8,7 +8,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import Process from "./components/Process/Process";
 import Material from "./components/Material/Material";
 import ProductApplication from "./components/ProductAppliation/ProductApplication";
-import Whatsapp from "./components/Whatsapp/Whatsapp";
+import Whatsapp from "./components/WhatsApp/WhatsApp";
 
 const App = () => {
   return (
