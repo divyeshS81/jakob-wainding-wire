@@ -19,9 +19,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section id="contactus" className="flex flex-col md:flex-row items-center justify-center py-10 md:py-20 bg-gray-100">
-      
-
+    <section id="contactus" className="flex flex-col md:flex-row  msitems-center justify-center py-10 md:py-20 bg-gray-100">
       {/* Form Section */}
       <div className="md:w-1/2 w-full p-6">
         <h2 className="text-2xl md:text-3xl font-semibold text-center mb-6 text-orange-500">Contact Us</h2>

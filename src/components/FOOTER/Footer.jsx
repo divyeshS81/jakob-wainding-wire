@@ -4,6 +4,7 @@ import { IoLogoYoutube } from "react-icons/io";
 import EmailIcon from "@mui/icons-material/Email";
 import CallIcon from "@mui/icons-material/Call";
 import LogoJakobWhite from "../../assets/IMAGES/LOGOJAKOB-White.png";
+import "./Footer.css"
 
 const Footer = () => {
   return (
@@ -64,7 +65,7 @@ const Footer = () => {
         </div>
 
         {/* Section 3: Social Icons */}
-        <div className="flex flex-row md:flex-col justify-around items-center space-y-4 md:space-y-0 md:space-x-0 text-2xl">
+        <div className="social-icons">
           <a
             href="https://www.linkedin.com/school/akshar-institute---india/posts/?feedView=all"
             className="hover:text-[#0077B5]"
