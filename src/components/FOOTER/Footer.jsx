@@ -27,7 +27,7 @@ const Footer = () => {
 
         {/* Section 2: Contact Us */}
         <div className="md:w-1/4 space-y-3 text-center md:text-left">
-          <h3 className="text-lg md:text-xl font-semibold">Contact Us</h3>
+          <h3 className="text-lg md:text-xl font-semibold">Contact Us :</h3>
           <p className="text-sm md:text-base leading-relaxed">
             Survey No. 64, Shed No.23
             <br />
@@ -66,6 +66,7 @@ const Footer = () => {
 
         {/* Section 3: Social Icons */}
         <div className="social-icons">
+        <h3 className="text-lg md:text-xl font-semibold">Follow On:</h3>
           <a
             href="https://www.linkedin.com/school/akshar-institute---india/posts/?feedView=all"
             className="hover:text-[#0077B5]"

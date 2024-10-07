@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="border-b shadow-md font-['poppins'] bg-white">
+      <header className="border-b shadow-md font-['poppins'] bg-white ">
         {/* Top bar with contact info and social icons */}
         <div className="flex flex-col md:flex-row justify-between items-center px-4 py-2 bg-gray-100 text-sm">
           {/* Contact Info */}

@@ -9,8 +9,8 @@
       
       @media (min-width: 768px) {
         .social-icons {
-          flex-direction: row; /* Change to column on medium screens */
-          gap: 0; /* Remove vertical space */
+          flex-direction: column; /* Change to column on medium screens */
+          gap: 20px; /* Remove vertical space */
         }
       
         .social-icons > * {
